@@ -1,0 +1,91 @@
+[6-Feb-2021 08:08:15 Etc/GMT-7] Invalid registration code submitted: MIT<br/>
+[8-Feb-2021 11:53:08 Etc/GMT-7] [FATAL] Exit error: Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php:544
+Stack trace:
+#0 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php(544): implode(Array, '|')
+#1 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php(577): SimplePie_Parse_Date->__construct()
+#2 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Registry.php(221): SimplePie_Parse_Date::get()
+#3 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Item.php(805): SimplePie_Registry->call('Parse_Date', 'get')
+#4 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie.php(3203): SimplePie_Item->get_date('U')
+#5 [internal function]: SimplePie::sort_items(Object(SimplePie_Item), Object(SimplePie_Item))
+#6 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie.php(3115): usort(Array, Array)
+#7 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/rss-feed-post-generator-echo.php(3745): SimplePie->get_items()
+#8 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/rss-feed-post-generator-echo.php(2316): echo_run_rule('0', 0)
+#9 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/class-wp-hook.php(287): echo_run_my_action_callback('')
+#10 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#11 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#12 /storage/emulated/0/Irkop/Web/wordpress/wp-admin/admin-ajax.php(184): do_action('wp_ajax_echo_ru...')
+#13 {main}
+  thrown, file: /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php, line: 544 - rule ID: 6020c36a7279d3.83173004!<br/>
+[8-Feb-2021 12:11:03 Etc/GMT-7] [FATAL] Exit error: Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php:544
+Stack trace:
+#0 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php(544): implode(Array, '|')
+#1 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php(577): SimplePie_Parse_Date->__construct()
+#2 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Registry.php(221): SimplePie_Parse_Date::get()
+#3 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Item.php(805): SimplePie_Registry->call('Parse_Date', 'get')
+#4 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie.php(3203): SimplePie_Item->get_date('U')
+#5 [internal function]: SimplePie::sort_items(Object(SimplePie_Item), Object(SimplePie_Item))
+#6 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie.php(3115): usort(Array, Array)
+#7 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/rss-feed-post-generator-echo.php(3745): SimplePie->get_items()
+#8 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/rss-feed-post-generator-echo.php(1843): echo_run_rule(0)
+#9 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/class-wp-hook.php(287): echo_cron()
+#10 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#11 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#12 /storage/emulated/0/Irkop/Web/wordpress/wp-cron.php(138): do_action_ref_array('echoaction', Array)
+#13 {main}
+  thrown, file: /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php, line: 544 - rule ID: 6020c36a7279d3.83173004!<br/>
+[8-Feb-2021 17:33:02 Etc/GMT-7] [FATAL] Exit error: Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php:544
+Stack trace:
+#0 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php(544): implode(Array, '|')
+#1 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php(577): SimplePie_Parse_Date->__construct()
+#2 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Registry.php(221): SimplePie_Parse_Date::get()
+#3 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Item.php(805): SimplePie_Registry->call('Parse_Date', 'get')
+#4 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie.php(3203): SimplePie_Item->get_date('U')
+#5 [internal function]: SimplePie::sort_items(Object(SimplePie_Item), Object(SimplePie_Item))
+#6 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie.php(3115): usort(Array, Array)
+#7 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/rss-feed-post-generator-echo.php(3745): SimplePie->get_items()
+#8 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/rss-feed-post-generator-echo.php(1843): echo_run_rule(0)
+#9 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/class-wp-hook.php(287): echo_cron()
+#10 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#11 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#12 /storage/emulated/0/Irkop/Web/wordpress/wp-cron.php(138): do_action_ref_array('echoaction', Array)
+#13 {main}
+  thrown, file: /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php, line: 544 - rule ID: 6020c36a7279d3.83173004!<br/>
+[9-Feb-2021 04:46:34 Etc/GMT-7] [FATAL] Exit error: Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php:544
+Stack trace:
+#0 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php(544): implode(Array, '|')
+#1 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php(577): SimplePie_Parse_Date->__construct()
+#2 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Registry.php(221): SimplePie_Parse_Date::get()
+#3 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Item.php(805): SimplePie_Registry->call('Parse_Date', 'get')
+#4 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie.php(3203): SimplePie_Item->get_date('U')
+#5 [internal function]: SimplePie::sort_items(Object(SimplePie_Item), Object(SimplePie_Item))
+#6 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie.php(3115): usort(Array, Array)
+#7 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/rss-feed-post-generator-echo.php(3745): SimplePie->get_items()
+#8 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/rss-feed-post-generator-echo.php(1843): echo_run_rule(0)
+#9 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/class-wp-hook.php(287): echo_cron()
+#10 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#11 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#12 /storage/emulated/0/Irkop/Web/wordpress/wp-cron.php(138): do_action_ref_array('echoaction', Array)
+#13 {main}
+  thrown, file: /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php, line: 544 - rule ID: 6020c36a7279d3.83173004!<br/>
+[9-Feb-2021 22:51:00 Etc/GMT-7] Error in parsing RSS feed (custom method): cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received for http://tool.irkop.my.id/feed/!<br/>
+[10-Feb-2021 01:51:01 Etc/GMT-7] [FATAL] Exit error: Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php:544
+Stack trace:
+#0 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php(544): implode(Array, '|')
+#1 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php(577): SimplePie_Parse_Date->__construct()
+#2 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Registry.php(221): SimplePie_Parse_Date::get()
+#3 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Item.php(805): SimplePie_Registry->call('Parse_Date', 'get')
+#4 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie.php(3203): SimplePie_Item->get_date('U')
+#5 [internal function]: SimplePie::sort_items(Object(SimplePie_Item), Object(SimplePie_Item))
+#6 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie.php(3115): usort(Array, Array)
+#7 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/rss-feed-post-generator-echo.php(3745): SimplePie->get_items()
+#8 /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/rss-feed-post-generator-echo.php(1843): echo_run_rule(0)
+#9 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/class-wp-hook.php(287): echo_cron()
+#10 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#11 /storage/emulated/0/Irkop/Web/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#12 /storage/emulated/0/Irkop/Web/wordpress/wp-cron.php(138): do_action_ref_array('echoaction', Array)
+#13 {main}
+  thrown, file: /storage/emulated/0/Irkop/Web/wordpress/wp-content/plugins/echo-rss-feed/res/simplepie/library/SimplePie/Parse/Date.php, line: 544 - rule ID: 6020c36a7279d3.83173004!<br/>
+[13-Feb-2021 07:43:30 Etc/GMT-7] Error in parsing RSS feed (custom method): cURL error 22: The requested URL returned error: 500 for http://tool.irkop.my.id/feed/!<br/>
+[13-Feb-2021 08:01:06 Etc/GMT-7] Error in parsing RSS feed (custom method): cURL error 22: The requested URL returned error: 500 for http://tool.irkop.my.id/feed/!<br/>
+[13-Feb-2021 09:06:30 Etc/GMT-7] Error in parsing RSS feed (custom method): cURL error 22: The requested URL returned error: 500 for http://tool.irkop.my.id/feed/!<br/>
+[13-Feb-2021 10:00:43 Etc/GMT-7] Error in parsing RSS feed (custom method): cURL error 22: The requested URL returned error: 500 for http://tool.irkop.my.id/feed/!<br/>

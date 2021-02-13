@@ -1,0 +1,20 @@
+[8-Feb-2021 08:13:55 UTC] Unrecognized NewsomaticAPI response: stdClass Object
+(
+    [error] => Invalid API key provided. Please get an API key, here: https://1.envato.market/newsomatic
+)
+ url: https://newsomaticapi.com/apis/news/v1/top?apikey=208677d5-d9at-49b5-9a22-006304b54656&pageSize=10&q=soccer&category=sports&country=us<br/>
+[8-Feb-2021 08:16:00 UTC] Unrecognized NewsomaticAPI response: stdClass Object
+(
+    [error] => Invalid API key provided. Please get an API key, here: https://1.envato.market/newsomatic
+)
+ url: https://newsomaticapi.com/apis/news/v1/top?apikey=208677d5-d9at-49b5-9a22-006304b54656&pageSize=10&q=Sepak+bola&category=sports&country=id<br/>
+[8-Feb-2021 10:30:50 UTC] Unrecognized NewsomaticAPI response: stdClass Object
+(
+    [error] => Invalid API key provided. Please get an API key, here: https://1.envato.market/newsomatic
+)
+ url: https://newsomaticapi.com/apis/news/v1/top?apikey=208677d5-d9at-49b5-9a22-006304b54656&pageSize=10&q=Sepak+bola&category=sports&country=id<br/>
+[8-Feb-2021 11:18:14 UTC] Unrecognized NewsomaticAPI response: stdClass Object
+(
+    [error] => Invalid API key provided. Please get an API key, here: https://1.envato.market/newsomatic
+)
+ url: https://newsomaticapi.com/apis/news/v1/top?apikey=208677d5-d9at-49b5-9a22-006304b54656&pageSize=10&q=Sepak+bola&category=sports&country=id<br/>
